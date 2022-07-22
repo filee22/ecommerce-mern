@@ -1,0 +1,138 @@
+.navbar__container {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__main-wrapper {
+  position: relative;
+  width: 99%;
+  max-width: 1450px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__submain-wrapper {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__wrapper {
+  width: 1200px;
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  font-weight: 600;
+  font-size: 2em;
+  color: black;
+}
+
+.navbar__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar__menu-item {
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 25px;
+
+  &:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+
+// mui icon here
+
+.navbar__register-container {
+  z-index: 4;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.navbar__register-wrapper {
+  z-index: 5;
+}
+
+.navbar__shopping-bag-container {
+  position: absolute;
+  content: '';
+  top: 3.5rem;
+  margin-bottom: -20rem;
+  // left: 80%;
+  // margin-right: -1175px;
+  margin-right: 2px;
+  height: 320px;
+  width: 270px;
+  border-radius: 20px;
+  /* background: red; */
+  // transform: translateX(-35%);
+  z-index: 3;
+}
+
+.navbar__shopping-bag-helper {
+  width: 32px;
+  height: 30px;
+  // background-color: red;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -10px;
+  z-index: 4;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.navbar__triangle-wrapper {
+  position: absolute;
+  margin-bottom: -14px;
+  z-index: 4;
+}
+
+.navbar__triangle {
+  width: 1px;
+  border: 6px solid transparent;
+  border-bottom-color: lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  margin-top: -12px;
+}
+
+.navbar__triangle-inner {
+  width: 1px;
+  border: 6px solid transparent;
+  border-bottom-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -8px;
+  z-index: 3;
+  margin-top: -10px;
+}

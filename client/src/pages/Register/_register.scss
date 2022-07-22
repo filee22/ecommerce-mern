@@ -1,0 +1,109 @@
+.register___wrapper {
+  height: 640px;
+  width: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background: white;
+  border-radius: 5px;
+}
+
+.register___close-button-wrapper {
+  margin: 1.5rem 1.5rem 0 auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+  }
+}
+
+.register___title {
+  padding: 0.2rem 0 1rem 0;
+}
+
+.register___option-container {
+  width: 350px;
+  border-bottom: solid 1px lightgray;
+}
+
+.register___signin-button {
+  background: white;
+  color: #828282;
+  border: none;
+  padding: 0 0 5px 0;
+  margin-right: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.register___register-button {
+  background: white;
+  color: #828282;
+  border: none;
+  padding: 0 0 5px 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.register___form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.register___label {
+  margin: 15px 0 10px 0;
+  font-size: 14px;
+}
+
+.register___input {
+  background: white;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.register___agreement {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.register___sub-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0 20px 0;
+}
+
+.register___subscription {
+  font-size: 12px;
+  flex: 1;
+  margin-left: 15px;
+}
+
+.register___button {
+  background: black;
+  color: white;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

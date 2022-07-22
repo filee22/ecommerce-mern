@@ -1,0 +1,12 @@
+.products__container {
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+}
+
+@media screen and (max-width: 1086px) {
+  .products__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
