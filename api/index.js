@@ -14,9 +14,6 @@ const path = require('path')
 dotenv.config()
 
 mongoose
-  // .connect(
-  //   'mongodb+srv://file:kokolino@cluster0.7zipz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
-  // )
   .connect(process.env.MONGO_URL)
   .then(() => console.log('DB Connection Successfull'))
   .catch((err) => {
